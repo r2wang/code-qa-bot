@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Environment variables (keep your API key private!)
+.env
+
+# Streamlit deployment secrets
+.streamlit/secrets.toml
+
+# Optional: Large document files
+documents/*.pdf
+documents/*.docx
+
+# Python cache files
+__pycache__/
+*.pyc
+
+
+# Ignore secrets and API keys
+.env
+*.key
+*.json
